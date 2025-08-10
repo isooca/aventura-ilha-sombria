@@ -1,0 +1,49 @@
+body {
+    background-color: #cc7ea9; /* tom mais escuro azul */
+    color: #76cbe7; /* cor clara, quase branca */
+    font-family: "Montserrat", sans-serif; /* fonte diferente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background-color: #E67E22; /* laranja forte */
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D35400; /* tom mais escuro laranja */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 85%;
+    background-color: #34495E; /* fundo do conteúdo */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+img {
+    max-width: 90%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
