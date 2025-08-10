@@ -1,7 +1,7 @@
 body {
-    background-color: #ffafee; /* tom mais escuro azul */
-    color: #ffffff; /* cor clara, quase branca */
-    font-family: "Montserrat", sans-serif; /* fonte diferente */
+    background-color: #ffafee; 
+    color: #ffffff; 
+    font-family: "Montserrat", sans-serif; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 }
 
 button {
-    background-color: #E67E22; /* laranja forte */
+    background-color: #E67E22;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
     border: none;
@@ -22,7 +22,7 @@ button {
 }
 
 button:hover {
-    background-color: #D35400; /* tom mais escuro laranja */
+    background-color: #D35400;
 }
 
 .passo {
@@ -36,7 +36,7 @@ button:hover {
 main {
     text-align: center;
     max-width: 85%;
-    background-color: #5e344b; /* fundo do conteúdo */
+    background-color: #5e344b; 
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
@@ -47,3 +47,4 @@ img {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
